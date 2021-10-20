@@ -99,11 +99,11 @@ button.slick-prev {
     width: 25px;
     height: 51px;
     z-index:  9;
-    background-color: purple;
+    background-color: transparent;
     position: absolute;
     background-image: url('../img/esqueda.png');
-    top: 35%;
-    left: 20%;
+    top: 45%;
+    left: 5%;
 }
 
 button.slick-next {
@@ -112,11 +112,11 @@ button.slick-next {
     width: 25px;
     height: 51px;
     z-index:  9;
-    background-color: purple;
+    background-color: transparent;
     position: absolute;
-    background-image: url('../img/esqueda.png');
-    top: 35%;
-    right: 20%;
+    background-image: url('../img/direita.png');
+    top: 45%;
+    right: 5%;
 }
 
 .slider-principal {
@@ -138,7 +138,7 @@ button.slick-next {
     width: 50%;
     position: absolute;
     left: 50%; 
-    top: 600px;
+    top: 550px;
 }
 
 li.slick-active button {
