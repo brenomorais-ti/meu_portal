@@ -63,12 +63,12 @@ main {
 }
 
 .menu ul li :hover {
-    border-bottom: 3px solid #00bac6;
+    border-bottom: 3px solid #B70E79;
 }
 
 .menu ul li a:hover {
     padding: 20;
-    color: #00bac6;  
+    color: #B70E79;  
 }
 
 .menu ul li a {
@@ -138,11 +138,11 @@ button.slick-next {
     width: 50%;
     position: absolute;
     left: 50%; 
-    top: 550px;
+    top: 450px;
 }
 
 li.slick-active button {
-    background: turquoise;
+    background: #B70E79;
 }
 
 .slick-dots li {
