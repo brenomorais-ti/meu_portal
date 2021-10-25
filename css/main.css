@@ -162,36 +162,10 @@ li.slick-active button {
     display: inline-block;
 }
 
-.content h1 {
-    color: #B70E79;
-    font-size: 40px;
-    font-family: 'Anton-Regular';
-    position: absolute;
-    top: 30px;
-    left: 47%; 
-}
-
-.content p {
-    text-align: justify;
-    font-size: 19px;
-    font-family: 'Lato-Light';
-    position: absolute;
-    top: 80px;
-    left: 35%; 
-    padding: 45px;
-}
-
-.perfil {
-    position: absolute;
-    top: 100px;
-    padding: 50px;
-}
-
-.servicos h1 {
-    color: #B70E79;
-    font-size: 40px;
-    font-family: 'Anton-Regular';
-    position: absolute;
-    top: 750px;
-    left: 47%;
+.col-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 33,3%;
+    float: left;
+    position: relative;
 }
