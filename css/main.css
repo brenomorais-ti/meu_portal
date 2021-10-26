@@ -162,10 +162,45 @@ li.slick-active button {
     display: inline-block;
 }
 
+.texto-destaque {
+    text-align: center;
+}
+
 .col-3 {
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 33,3%;
+    width: 20%;
     float: left;
     position: relative;
+    padding-left: 50px;
+    left: 13%;
+    top: 50px;
+}
+
+.col-3 h3 {
+    font-family: "Arial", Helvetica, serif;
+    color: #B70E79;
+}
+
+.col-3 p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #8b8b8b;
+    text-align:justify;
+    padding: 10%;
+}
+
+.sobre {
+    background-color: #E6E7E8;
+}
+
+.sobre h1 {
+    font-family: "Anton-Regular";
+    text-align: center;
+    color: #B70E79;
+    padding-top: 25px;
+}
+
+.sobre p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #8b8b8b;
+    padding-top: 15px;
 }
