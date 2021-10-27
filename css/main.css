@@ -32,6 +32,13 @@ main {
     position: relative;
 }
 
+.titulo h1 {
+    font-family: "Anton-Regular";
+    text-align: center;
+    color: #B70E79;
+    padding-top: 3%;
+}
+
 .logo img{
     float: left;
     padding: 5px;
@@ -191,12 +198,6 @@ li.slick-active button {
     background-color: #E6E7E8;
 }
 
-.sobre h1 {
-    font-family: "Anton-Regular";
-    text-align: center;
-    color: #B70E79;
-    padding-top: 3%;
-}
 
 .sobre p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -211,8 +212,26 @@ li.slick-active button {
 .perfil {
     width: 20%;
     position: absolute;
-    padding-left: 15%;
+    padding-left: 12%;
     top: 155px;
 }
 
+.cliente {
+    width: 20%;
+    float: left;
+    position: relative;
+    left: 13%;
+    top: 50px;
+    padding-bottom: 10%;
+}
 
+.portfolio {
+    background-color: #8b8b8b;
+}
+
+.port {
+    position: relative;
+    left: 13%;
+    top: 55%;
+    padding-bottom: 10%;
+}
