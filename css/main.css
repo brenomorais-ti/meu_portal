@@ -183,8 +183,8 @@ li.slick-active button {
 .col-3 p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #8b8b8b;
-    text-align:justify;
-    padding: 10%;
+    text-align:center;
+    padding-bottom: 25%;
 }
 
 .tela-100 .sobre {
@@ -195,7 +195,7 @@ li.slick-active button {
     font-family: "Anton-Regular";
     text-align: center;
     color: #B70E79;
-    padding-top: 25px;
+    padding-top: 3%;
 }
 
 .sobre p {
@@ -205,6 +205,14 @@ li.slick-active button {
     padding-top: 15px;
     width: 35%;
     padding-left: 50%;
+    padding-bottom: 5%;
+}
+
+.perfil {
+    width: 20%;
+    position: absolute;
+    padding-left: 15%;
+    top: 155px;
 }
 
 
