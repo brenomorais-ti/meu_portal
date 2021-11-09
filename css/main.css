@@ -80,26 +80,20 @@ main {
     margin-left: 15px;
 }
 
-.menu ul li :hover {
-    border-bottom: 3px solid #B70E79;
-}
-
 .menu ul li a:hover {
-    padding: 20;
+    
     color: #B70E79;  
 }
 
 .menu ul li a {
+    padding: 20;
+    position: relative;
+    left: 50%;
     color: #8b8b8b;
     text-decoration: none;
-    font-size: 17px;
-    font-family: "Arial", Helvetica, serif;
+    font-size: 20px;
+    font-family: "Arial";
     text-transform: uppercase;
-}
-
-.menu {
-    width: 70%;
-    float: left;
 }
 
 .tela-100 {
@@ -198,7 +192,6 @@ li.slick-active button {
     background-color: #E6E7E8;
 }
 
-
 .sobre p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
@@ -226,12 +219,51 @@ li.slick-active button {
 }
 
 .portfolio {
-    background-color: #8b8b8b;
+    background-color: #E6E7E8;
+    padding-bottom: 22%;
 }
 
 .port {
+    width: 22%;
+    float: left;
     position: relative;
-    left: 13%;
-    top: 55%;
+    left: 7%;
+    top: 50px;
     padding-bottom: 10%;
+}
+
+.rodape {
+    background-color: black;
+    padding-bottom: 35%;
+}
+
+.logo2 img {
+    float: left;
+    position: relative;
+    left: 7%;
+    top: 50px;
+}
+
+.menu2 {
+    float: left;
+    position: absolute;
+    left: 40%;
+    top: 100px;
+}
+
+form {
+    float: left;
+    position: absolute;
+    left: 40%;
+    top: 5px;
+}
+
+form p {
+    font-family: "Arial", Helvetica, serif;
+    color: #B70E79;
+}
+
+form h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #B70E79;
 }

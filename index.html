@@ -5,11 +5,13 @@
         <link rel="stylesheet" type="text/css" href="./css/main.css">
         <title>BrennoMorais</title>
         <link rel="icon" type="image/png" href="img/icon.png">
+        
     </head>
 
     <body>
         <header class="menu-principal">
             <main>
+    <section id="home">
                 <div class="header-1">
                     <div class="logo">
                         <img src="img/logo.png">
@@ -51,19 +53,22 @@
                 <div class="menu">
                     <ul>
                         <li>
-                            <a href="">Home</a>
+                            <a href="#menu">Home</a>
                         </li>
                         <li>
-                            <a href="">Sobre mim</a>
+                            <a href="#trabalhamos">Trabalho com</a>
                         </li>
                         <li>
-                            <a href="">Portfolio</a>
+                            <a href="#sobre">Sobre mim</a>
                         </li>
                         <li>
-                            <a href="">Clientes</a>
+                            <a href="#clientes">Clientes</a>
                         </li>
                         <li>
-                            <a href="">Contato</a>
+                            <a href="#portfolio">Portfólio</a>
+                        </li>
+                        <li>
+                            <a href="#rodape">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -76,8 +81,10 @@
                 <img src="./img/banner3.png" />
               </div>
         </div>
+    </section>
         <div class="tela-100">
             <div class="content texto-destaque">
+                <section id="trabalhamos">
                 <div class="col-3">
                     <img id="site" src="img/sites.png">
                     <h3>Criação de Sites</h3>
@@ -93,10 +100,13 @@
                     <h3>Lojas Virtuais</h3>
                     <p>E-commerce para pequenos negócios e produtos diferenciados. Tenha uma loja virtual simplificada e de fácil utilização, visando sempre a venda facilitada para o usuário final.</p>
                 </div>
+                </section>
             </div>
         </div>
+    
         <div class="tela-100">
             <div class="sobre">
+                <section id="sobre">
                 <div class="titulo">
                     <h1>
                         Sobre
@@ -136,10 +146,12 @@
                     <br>
                     <br>
                 </p>
+            </section>
             </div>
         </div>
         <div class="tela-100">
             <div class="clientes">
+                <section id="clientes">
                 <div class="titulo">
                     <h1>
                         Clientes
@@ -161,22 +173,95 @@
         </div>
         <div class="tela-100">
             <div class="portfolio">
+                <section id="portfolio">
                 <div class="titulo">
                     <h1>
                         Portfólio
                     </h1>
                 </div>
                 <div class="port">
-                    <img id="site" src="img/stadia.png">
+                    <img src="img/site1.png">
                 </div>
                 <div class="port">
-                    <img id="site" src="img/coca.png">
+                    <img src="img/site2.png">
                 </div>
                 <div class="port">
-                    <img id="site" src="img/nestle.png">
+                    <img src="img/site4.png">
                 </div>
                 <div class="port">
-                    <img id="site" src="img/nike.png">
+                    <img src="img/site3.png">
+                </div>
+            </div>
+        </div>
+        <div class="tela-100">
+            <div class="rodape">
+                <section id="rodape"></section>
+                <div class="port">
+                    <div class="logo2">
+                        <img src="img/logo_banner.png">
+                    </div>
+                </div>
+                <div class="port">
+                    <div class="menu">
+                        <div class="menu2">
+                            <ul>
+                                <li>
+                                    <a href="#menu">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#trabalhamos">Trabalho com</a>
+                                </li>
+                                <li>
+                                    <a href="#sobre">Sobre mim</a>
+                                </li>
+                                <li>
+                                    <a href="#clientes">Clientes</a>
+                                </li>
+                                <li>
+                                    <a href="#portfolio">Portfólio</a>
+                                </li>
+                                <li>
+                                    <a href="#rodape">Contato</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="port">
+                    <div class="fomulario">
+                        <form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+                            <input type="hidden" name="recipient" value="testeiseuemail@gmail.com"> <!-- Pode ser qualquer endereço de email -->
+                            <input type="hidden" name="redirect" value="http://seudominio"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+                            <input type="hidden" name="subject" value="teste de assunto">  <!-- Assunto da mensagem -->
+                            <input type="hidden" name="email" value="email@doseudominio">   <!-- Deve ser uma conta de email ativa em seu domínio -->
+                            <h1>
+                                CONTATO
+                            </h1>
+                            <p> 
+                                NOME:<br /> 
+                                <input type="text" size="40" name="nome"> 
+                            </p>   
+
+                            <p> 
+                                ASSUNTO:<br /> 
+                                <input type="text" size="40" name="assunto"> 
+                            </p> 
+                    
+                            <p>
+                                E-MAIL:<br /> 
+                                <input type="text" size="40" name="replyto"> 
+                            </p>   
+                    
+                            <p> 
+                                MENSAGEM:<br />
+                                <textarea cols="40" rows="5"> </textarea>
+                            </p>   
+                    
+                            <p> 
+                                <input type="submit" name="BTEnvia" value="Enviar"> 
+                                <input type="reset" name="BTApaga" value="Apagar"> </p> 
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
