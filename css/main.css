@@ -33,8 +33,10 @@ main {
 }
 
 .titulo h1 {
-    font-family: "Anton-Regular";
+    font-family: "helvetica";
+    font-size: 40px;
     text-align: center;
+
     color: #B70E79;
     padding-top: 3%;
 }
@@ -92,7 +94,7 @@ main {
     color: #8b8b8b;
     text-decoration: none;
     font-size: 20px;
-    font-family: "Arial";
+    font-family: "helvetica";
     text-transform: uppercase;
 }
 
@@ -244,17 +246,35 @@ li.slick-active button {
     top: 50px;
 }
 
-.menu2 {
-    float: left;
-    position: absolute;
-    left: 40%;
-    top: 100px;
+.menu2 ul li {
+    list-style: none;
+    color: #8b8b8b;
+    margin-left: 15px;
 }
+
+.menu2 ul li a:hover {
+    
+    color: #B70E79;  
+}
+
+.menu2 ul li a {
+    top: 100px;
+    padding: 20;
+    position: relative;
+    left: 50%;
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "helvetica";
+    text-transform: uppercase;
+}
+
+
 
 form {
     float: left;
     position: absolute;
-    left: 40%;
+    left: 70%;
     top: 5px;
 }
 
